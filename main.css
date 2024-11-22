@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  scrollbar-width: none;
 }
 
 body {
@@ -9,6 +10,45 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .img2 {
+    background-image: url("./imgs/solar-panels-meadow\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .img2 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 13%;
+    text-align: left;
+    margin-left: 10%;
+    display: inline-block;
+  }
+
+  .img2 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .img2 button {
+    background-color: #3cab90;
+    color: #fff;
+    border: 1px solid #3cab90;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  /* for nav */
   .nav-container {
     display: flex;
     align-items: center;
@@ -83,6 +123,45 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .img2 {
+    background-image: url("./imgs/solar-panels-meadow\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .img2 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 13%;
+    text-align: left;
+    margin-left: 10%;
+    display: inline-block;
+  }
+
+  .img2 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .img2 button {
+    background-color: #3cab90;
+    color: #fff;
+    border: 1px solid #3cab90;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  /* for nav */
   .nav-container {
     display: flex;
     align-items: center;
@@ -157,6 +236,46 @@ body {
 }
 
 @media (max-width: 768px) {
+  .img2 {
+    background-image: url("./imgs/solar-panels-meadow\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: auto;
+  }
+  .img2 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 13%;
+    text-align: left;
+    margin-left: 10%;
+    display: inline-block;
+  }
+
+  .img2 p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .img2 button {
+    background-color: #3cab90;
+    color: #fff;
+    border: 1px solid #3cab90;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  /* for nav */
   .nav-container {
     display: flex;
     align-items: center;
@@ -182,7 +301,6 @@ body {
     display: inline;
     border-radius: 7%;
     padding: 4px 8px;
-
     font-size: 15px;
   }
 
@@ -209,9 +327,9 @@ body {
     opacity: 0px;
     width: 216px;
     opacity: 1;
-    margin-left: -19%;
+    margin-left: -20%;
     align-content: right;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
 
   .call-number {
