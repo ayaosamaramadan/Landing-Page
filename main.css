@@ -10,6 +10,28 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .div4{
+    background-image: url(./imgs/8116\ 1.png);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    align-items: left;
+    justify-content: flex-start;
+    margin-top: 10%;
+  }
+
+  .div44{
+    margin-left: 6%;
+    color: #fff;
+    margin-top: 10%;
+  }
+  .pdiv4{
+    
+  width:45%;
+  line-height: 24px;
+  font-size: 20px;
+  }
   .pp {
     width: 70%;
     line-height: 24px;
@@ -72,15 +94,38 @@ body {
     margin-left: 10%;
   }
 
-  .img2 button {
+  .grebtn {
     background-color: #3cab90;
     color: #fff;
     border: 1px solid #3cab90;
     border-radius: 100px;
     padding: 10px 20px;
     font-size: 1rem;
-
     margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .yellowbtn{
+
+  background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  .btn3{
+    background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 0%;
     margin-top: 2%;
     cursor: pointer;
   }
@@ -98,6 +143,7 @@ body {
   .img33 {
     position: relative;
   }
+
   /* for nav */
   .nav-container {
     display: flex;
