@@ -10,6 +10,34 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .pp {
+    width: 70%;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+    font-size: 16px;
+  }
+
+  .imgg {
+    position: absolute;
+    margin-top: 90%;
+    margin-left: -30%;
+  }
+  .imggs {
+    margin-top: 20%;
+    margin-left: -20%;
+  }
+  .h11 {
+    font-size: 42px;
+    width: 70%;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
   .div2 span {
     color: #84bd3a;
   }
@@ -65,12 +93,10 @@ body {
     margin-left: 6%;
     margin-top: 4%;
     text-align: left;
-      
   }
 
   .img33 {
     position: relative;
-
   }
   /* for nav */
   .nav-container {
@@ -147,6 +173,48 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .pp {
+    margin-left: 15%;
+    width: 120%;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+    font-size: 16px;
+  }
+
+  .imgg {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: -19%;
+    height: 25vh;
+  }
+  .imggs {
+    margin-top: 85%;
+    height: 60vh;
+    margin-left: -11%;
+  }
+  .h11 {
+    margin-left: 15%;
+    width: 150%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .div2 span {
+    color: #84bd3a;
+  }
+  .div2 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15%;
+    width: 100%;
+  }
+
   .img2 {
     background-image: url("./imgs/solar-panels-meadow\ 1.png");
     background-size: cover;
@@ -259,7 +327,53 @@ body {
   }
 }
 
+
 @media (max-width: 768px) {
+  .pp {
+    margin-left: 15%;
+    width: 100%;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+    font-size: 16px;
+  }
+
+  .imgg {
+    position: absolute;
+    margin-top: 125%;
+    margin-left: -69%;
+    height: 25vh;
+  }
+  .imggs {
+    margin-top: 110%;
+    height: 60vh;
+    margin-left: -90%;
+  }
+
+  .h11 {
+    margin-left: 15%;
+    width:390px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .div2 span {
+    color: #84bd3a;
+  }
+  .div2 {
+    font-weight: bold;
+    margin-top: 120%;
+    font-size: 15px;
+    margin-left: 15%;
+    width: 100%;
+    text-align: left;
+  }
+
   .img2 {
     background-image: url("./imgs/solar-panels-meadow\ 1.png");
     background-size: cover;
