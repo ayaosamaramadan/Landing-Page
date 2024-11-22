@@ -10,6 +10,14 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .div2 span {
+    color: #84bd3a;
+  }
+  .div2 {
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+  }
   .img2 {
     background-image: url("./imgs/solar-panels-meadow\ 1.png");
     background-size: cover;
@@ -47,6 +55,22 @@ body {
     margin-left: 10%;
     margin-top: 2%;
     cursor: pointer;
+  }
+
+  .img3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin-left: 6%;
+    margin-top: 4%;
+    text-align: left;
+      
+  }
+
+  .img33 {
+    position: relative;
+
   }
   /* for nav */
   .nav-container {
