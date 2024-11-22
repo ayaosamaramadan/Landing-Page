@@ -340,9 +340,9 @@ body {
 
   .imgg {
     position: absolute;
-    margin-top: 125%;
-    margin-left: -69%;
-    height: 25vh;
+    margin-top: 65%;
+    margin-left: -25%;
+    height: 20%;
   }
   .imggs {
     margin-top: 110%;
@@ -367,7 +367,7 @@ body {
   }
   .div2 {
     font-weight: bold;
-    margin-top: 120%;
+    margin-top: 105%;
     font-size: 15px;
     margin-left: 15%;
     width: 100%;
