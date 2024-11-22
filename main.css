@@ -10,8 +10,12 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .div4{
-    background-image: url(./imgs/8116\ 1.png);  
+  .sec4h1 {
+    font-size: 42px;
+  }
+
+  .div4 {
+    background-image: url(./imgs/8116\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,17 +25,18 @@ body {
     margin-top: 10%;
   }
 
-  .div44{
+  .div44 {
     margin-left: 6%;
     color: #fff;
     margin-top: 10%;
   }
-  .pdiv4{
-    
-  width:45%;
-  line-height: 24px;
-  font-size: 20px;
+
+  .pdiv4 {
+    width: 45%;
+    line-height: 24px;
+    font-size: 20px;
   }
+
   .pp {
     width: 70%;
     line-height: 24px;
@@ -45,10 +50,12 @@ body {
     margin-top: 90%;
     margin-left: -30%;
   }
+
   .imggs {
     margin-top: 20%;
     margin-left: -20%;
   }
+
   .h11 {
     font-size: 42px;
     width: 70%;
@@ -60,14 +67,17 @@ body {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
+
   .div2 span {
     color: #84bd3a;
   }
+
   .div2 {
     font-weight: bold;
     font-size: 20px;
     width: 70%;
   }
+
   .img2 {
     background-image: url("./imgs/solar-panels-meadow\ 1.png");
     background-size: cover;
@@ -75,6 +85,7 @@ body {
     background-position: center;
     height: 100vh;
   }
+
   .img2 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -106,9 +117,8 @@ body {
     cursor: pointer;
   }
 
-  .yellowbtn{
-
-  background-color: #ffbb1c;
+  .yellowbtn {
+    background-color: #ffbb1c;
     color: black;
     border: 1px solid #ffbb1c;
     border-radius: 100px;
@@ -118,7 +128,8 @@ body {
     margin-top: 2%;
     cursor: pointer;
   }
-  .btn3{
+
+  .btn3 {
     background-color: #ffbb1c;
     color: black;
     border: 1px solid #ffbb1c;
@@ -219,6 +230,65 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .div4 {
+    background-image: url(./imgs/8116\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    align-items: left;
+    justify-content: flex-start;
+    margin-top: 10%;
+  }
+
+  .div44 {
+    margin-left: 6%;
+    color: #fff;
+    margin-top: 10%;
+  }
+
+  .pdiv4 {
+    width: 45%;
+    line-height: 24px;
+    font-size: 20px;
+  }
+
+  .grebtn {
+    background-color: #3cab90;
+    color: #fff;
+    border: 1px solid #3cab90;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .yellowbtn {
+    background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .btn3 {
+    background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 0%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
   .pp {
     margin-left: 15%;
     width: 120%;
@@ -234,6 +304,7 @@ body {
     margin-left: -19%;
     height: 25vh;
   }
+
   .imggs {
     margin-top: 85%;
     height: 60vh;
@@ -254,6 +325,7 @@ body {
   .div2 span {
     color: #84bd3a;
   }
+
   .div2 {
     font-weight: bold;
     font-size: 15px;
@@ -268,6 +340,7 @@ body {
     background-position: center;
     height: 100vh;
   }
+
   .img2 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -287,18 +360,6 @@ body {
     margin-left: 10%;
   }
 
-  .img2 button {
-    background-color: #3cab90;
-    color: #fff;
-    border: 1px solid #3cab90;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 1rem;
-
-    margin-left: 10%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
   /* for nav */
   .nav-container {
     display: flex;
@@ -373,8 +434,66 @@ body {
   }
 }
 
-
 @media (max-width: 768px) {
+  .div4 {
+    background-image: url(./imgs/8116\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    align-items: left;
+    justify-content: flex-start;
+    margin-top: 10%;
+  }
+
+  .grebtn {
+    background-color: #3cab90;
+    color: #fff;
+    border: 1px solid #3cab90;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .yellowbtn {
+    background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .btn3 {
+    background-color: #ffbb1c;
+    color: black;
+    border: 1px solid #ffbb1c;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 0%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .div44 {
+    margin-left: 6%;
+    color: #fff;
+    margin-top: 10%;
+  }
+
+  .pdiv4 {
+    width: 65%;
+    line-height: 24px;
+    font-size: 20px;
+  }
+
   .pp {
     margin-left: 15%;
     width: 100%;
@@ -390,6 +509,7 @@ body {
     margin-left: -25%;
     height: 20%;
   }
+
   .imggs {
     margin-top: 110%;
     height: 60vh;
@@ -398,7 +518,7 @@ body {
 
   .h11 {
     margin-left: 15%;
-    width:390px;
+    width: 390px;
     font-size: 32px;
     font-weight: 600;
     line-height: 50.83px;
@@ -411,6 +531,7 @@ body {
   .div2 span {
     color: #84bd3a;
   }
+
   .div2 {
     font-weight: bold;
     margin-top: 105%;
@@ -428,6 +549,7 @@ body {
     height: 70vh;
     width: auto;
   }
+  
   .img2 h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -447,19 +569,8 @@ body {
     margin-left: 10%;
   }
 
-  .img2 button {
-    background-color: #3cab90;
-    color: #fff;
-    border: 1px solid #3cab90;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-left: 10%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-
   /* for nav */
+
   .nav-container {
     display: flex;
     align-items: center;
