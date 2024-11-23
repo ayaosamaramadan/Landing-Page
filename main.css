@@ -374,6 +374,60 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .div7 {
+    display: flex;
+    margin-left: 3%;
+  }
+
+  .imgs4 {
+    display: grid;
+    grid-row: 2;
+    flex-direction: row;
+  }
+  .divImg4 {
+    padding: 4% 4% 0% 4%;
+    background-color: rgba(60, 171, 144, 0.05);
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    width: 220.67px;
+    border: 1px solid rgba(60, 171, 144, 1);
+  }
+  .divImg4 img{
+    width: 100%;
+  }
+  .divImg4 h2 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .divImg4 p {
+    width: 210.67px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .gri {
+    width: Fill (358.67px) px;
+    height: Hug (814px) px;
+    gap: 32px;
+    margin-right: 5%;
+  }
+  .en {
+    width:24%;
+    margin-right: 7%;
+    font-size: 15px;
+  }
+  .gri1 {
+    width: Fill (358.67px) px;
+    height: Hug (814px) px;
+    gap: 32px;
+    margin-right: 10%;
+  }
+
   .rep {
     background-image: url(./imgs/m.png);
     background-size: cover;
@@ -940,4 +994,64 @@ body {
     font-weight: 700;
     text-align: left;
   }
+
+  .div7 {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .imgs4 {
+    display: grid;
+    grid-row: 2;
+    flex-direction: row;
+  }
+  .divImg4 {
+    padding: 4% 4% 0% 4%;
+    background-color: rgba(60, 171, 144, 0.05);
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    width: 220.67px;
+    border: 1px solid rgba(60, 171, 144, 1);
+  }
+  .divImg4 img{
+    width: 100%;
+  }
+  .divImg4 h2 {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .divImg4 p {
+    width: 210.67px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .gri {
+    width: Fill (358.67px) px;
+    height: Hug (814px) px;
+    gap: 32px;
+margin-left: 23%;
+  }
+  .en {
+  
+    width:24%;
+    display: inline;
+    margin-right: 7%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .gri1 {
+    width: Fill (358.67px) px;
+    height: Hug (814px) px;
+    gap: 32px;
+  margin-top: 5%;
+    margin-left: 23%;
+  }
+
 }
