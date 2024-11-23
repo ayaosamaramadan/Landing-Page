@@ -10,6 +10,56 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .div6 h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  .div6 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 936px;
+    margin: 0 auto;
+    text-align: center;
+    color: #475467;
+    
+  }
+  .div5 {
+    display: flex;
+    grid-row:3 ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .div5 div {
+    margin-right: 1%;
+
+    max-width: 26.3%;
+    margin-left:  1%;
+    border: 1px solid #bd3838;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .div5 h2{
+    margin-left: 10%;
+  }
+  .div5 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467;
+    text-align: left;
+    width: 90%;
+  }
+
+  div p:nth-of-type(2) {
+    color: #3CAB90;    
+  }
   .sec4h1 {
     font-size: 42px;
   }
@@ -28,7 +78,7 @@ body {
   .div44 {
     margin-left: 6%;
     color: #fff;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .pdiv4 {
@@ -230,6 +280,39 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .div6 h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  .div6 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 936px;
+    margin: 0 auto;
+    text-align: center;
+    color: #475467;
+    
+  }
+  .div5 {
+    display: flex;
+    grid-row:2 ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .div5 div {
+    margin-right: 1%;
+
+    max-width: 26.3%;
+    margin-left:  1%;
+    border: 1px solid #bd3838;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
   .div4 {
     background-image: url(./imgs/8116\ 1.png);
     background-size: cover;
@@ -435,6 +518,39 @@ body {
 }
 
 @media (max-width: 768px) {
+  .div6 h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  .div6 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 936px;
+    margin: 0 auto;
+    text-align: center;
+    color: #475467;
+    
+  }
+  .div5 {
+    display: flex;
+    grid-row:1 ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .div5 div {
+    margin-right: 1%;
+
+    max-width: 26.3%;
+    margin-left:  1%;
+    border: 1px solid #bd3838;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
   .div4 {
     background-image: url(./imgs/8116\ 1.png);
     background-size: cover;
@@ -549,7 +665,7 @@ body {
     height: 70vh;
     width: auto;
   }
-  
+
   .img2 h1 {
     font-size: 2rem;
     font-weight: 700;
