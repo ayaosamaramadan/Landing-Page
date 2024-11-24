@@ -7,28 +7,6 @@
   information, all styled to be visually appealing and user-friendly
   across different devices.
 </p>
-<h2>Features</h2>
-<ul style="list-style: none; padding: 0">
-<li>
-  📱 <strong>Responsive Design</strong>: The landing page is fully
-  responsive and adjusts seamlessly across various screen sizes,
-  including mobile, tablet, and desktop.
-</li>
-<li>
-  🧭 <strong>Navigation Bar</strong>: A fixed navigation bar with links
-  to different sections of the page.
-</li>
-<li>
-  🌟 <strong>Service Highlights</strong>: Sections highlighting the key
-  services offered, including solar panel installation and repair
-  services.
-</li>
-<li>
-  📞 <strong>Contact Information</strong>: Easy-to-find contact
-  information with call-to-action buttons for immediate user
-  interaction.
-</li>
-</ul>
 </div>
 <h2>🖥️ Large Device Screen</h2>
 <p>
