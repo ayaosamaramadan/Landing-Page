@@ -33,7 +33,7 @@
 <h2>🖥️ Large Device Screen</h2>
 <p>
   This demonstrates how the landing page appears on large devices such as
-  desktops and laptops.
+  desktops and laptops. (Min width 1024px)
 </p>
 <div>
 <img
@@ -48,7 +48,7 @@
 <h2>💻 Medium Device Screen</h2>
 <p>
   This demonstrates how the landing page appears on medium devices such as
-  tablets.
+  tablets. (Min width 769px) and (Max width 1024px)
 </p>
 <div>
 <img
@@ -63,7 +63,7 @@
 <h2>📱 Small Device Screen</h2>
   <p>
   This demonstrates how the landing page appears on small devices such as
-  smartphones.
+  smartphones. (Max width 768px)
 </p>
 <div>
 <img
