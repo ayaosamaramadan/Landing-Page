@@ -8,7 +8,7 @@
   across different devices.
 </p>
 <p>
-  You can view the live project <a href="https://ayaosamaramadan.github.io/landingpage/">here</a>.
+  You can view the live project <a href="https://ayaosamaramadan.github.io/landing-page">here</a>.
 </p>
 </div>
 <h2>🖥️ Large Device Screen</h2>
