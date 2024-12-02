@@ -13,6 +13,9 @@ body {
   font-weight: bold;
 }
 @media (min-width: 1025px) {
+  html, body {
+    overflow-x:hidden 
+  }
   .ddd {
     display: flex;
   }
@@ -585,6 +588,9 @@ body {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+  html, body {
+    overflow-x:hidden 
+  } 
   .img33 {
     position: relative;
     margin-top: 40%;
@@ -1110,6 +1116,9 @@ body {
   }
 }
 @media (max-width: 768px) and (min-width: 426px) {
+  html, body {
+    overflow-x:hidden 
+  } 
   .img33 {
     position: relative;
     margin-top: 20%;
@@ -1606,6 +1615,9 @@ body {
   }
 }
 @media (max-width: 425px) and (min-width: 376px) {
+  html, body {
+    overflow-x:hidden 
+  } 
   .d {
     display: flex;
     justify-content: center;
@@ -1898,7 +1910,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 50vh;
-    width: 100%;
+    width: 105%;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
@@ -1952,29 +1964,30 @@ body {
   }
   .pp {
     margin-left: 15%;
-    width: 150%;
+    width: 300px;
     line-height: 20px;
     text-align: left;
     color: #475467;
     font-size: 16px;
-    margin-top: 20%;
+    margin-top: 20px;
   }
   .imgg {
     position: absolute;
-    margin-top: 100%;
-    margin-left: -55%;
-    height: 20%;
+    margin-top: 430px;
+    margin-left: -270px;
+    height: 100px;
   }
 
   .imggs {
-    margin-left: -30%;
-    height: 40vh;
+    margin-top: 250px;
+    margin-left: -230px;
+    height: 300px;
   }
 
   .h11 {
     margin-left: 15%;
     font-size: 32px;
-    width: 160%;
+    width: 330px;
     font-weight: 600;
     line-height: 50.83px;
     letter-spacing: -0.02em;
@@ -1987,15 +2000,16 @@ body {
   }
   .img33 {
     position: relative;
-    margin-top: 115%;
-    margin-bottom: 10%;
+    margin-top: 520px;
+      margin-top: 215px;
+      margin-bottom: 10px;
   }
   .div2 {
     font-weight: bold;
     font-size: 15px;
     margin-left: 15%;
     width: 230%;
-    margin-top: 240%;
+    margin-top: 400px;
     text-align: left;
     letter-spacing: 0.30000001192092896px;
   }
@@ -2130,528 +2144,10 @@ body {
     width: 40%;
   }
 }
-@media (max-width: 375px) and (min-width: 321px) {
-  .d {
-    display: flex;
-    justify-content: center;
-    margin: 3% 20% 0% 20%;
-  }
-  footer img {
-    margin-top: 30%;
-    width: 110%;
-  }
-  .e h1 {
-    margin-top: 5%;
-    margin-left: -10%;
-    text-align: left;
-  }
-  .e p {
-    text-align: center;
-  }
-  .ulDiv ul {
-    width: 130%;
-  }
-  .ulDiv li {
-    display: flex;
-    font-size: 10px;
-  }
-  hr {
-    border: 1px solid rgba(113, 119, 125, 1);
-  }
-  .div8 {
-    margin-top: 10%;
-  }
-  .div8 button {
-    background: rgba(255, 187, 28, 1);
-    color: beige;
-    border-radius: 40px;
-    border: 0px;
-    font-size: 13px;
-    padding: 0px 10px 0px 10px;
-    height: 6vh;
-    margin-top: 5%;
-    margin-left: -25%;
-  }
-  input {
-    border: 1px solid rgba(179, 189, 199, 1);
-    border-radius: 25px;
-    font-size: 14px;
-    margin-top: 5%;
-    background-color: rgba(255, 255, 255, 0.09);
-    padding: 0% 0% 0% 5%;
-    margin-left: 10%;
-  }
-  .div8 label {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-left: 15%;
-  }
-  .dd li,
-  .dd span,
-  .dd p {
-    color: rgba(146, 152, 159, 1);
-    font-size: 10px;
-  }
-  .dd {
-    display: flex;
-
-    justify-content: space-between;
-  }
-  .div8 div {
-    display: flex;
-  }
-  ::placeholder {
-    color: rgba(146, 152, 159, 1);
-    width: 60%;
-    font-size: 12px;
-  }
-  footer {
-    padding: 2% 10%;
-    background-color: rgba(40, 54, 70, 1);
-    color: #fff;
-    width: 90%;
-  }
-  .div77 {
-    margin-top: 4%;
-    margin-bottom: 10%;
-    width: 88%;
-    margin-left: 8%;
-  }
-  .woc {
-    border: 1px solid #00000000;
-    border-radius: 20px;
-    background-color: rgba(60, 171, 144, 0.06);
-    margin-left: 3%;
-    margin-right: 10%;
-    padding: 4%;
-  }
-
-  h5 {
-    margin-top: -3%;
-  }
-  .wocc img {
-    margin-right: 5%;
-  }
-  .wocc div:nth-of-type(2) {
-    margin-left: 35%;
-    width: 60%;
-    margin-top: 5%;
-    margin-bottom: 8%;
-  }
-  .feedback {
-    margin-left: 5%;
-    margin-top: 6%;
-    margin-right: 4%;
-    display: flex;
-    margin-bottom: 5%;
-  }
-  .feedback p {
-    width: 150%;
-    height: Hug (216px) px;
-    gap: 52px;
-    font-size: 15px;
-  }
-  .man {
-    margin-left: 9%;
-  }
-  .man h5 {
-    font-weight: 800;
-    display: block;
-    margin-left: 25%;
-    margin-top: -25%;
-    color: #000000;
-  }
-  .man p {
-    margin-top: -5%;
-    margin-left: 25%;
-  }
-  .div7 {
-    display: flex;
-  }
-  .ddd {
-    display: flex;
-    margin-right: -50%;
-    margin-top: 3%;
-  }
-  .divImg3 {
-    padding: 2%;
-    margin: 3% 5% 3% 3%;
-
-    background-color: rgba(60, 171, 144, 0.05);
-    border: 1px solid #000;
-    border-radius: 10px;
-    max-height: 418px;
-    border: 1px solid rgba(60, 171, 144, 1);
-  }
-  .divImg3 h2 {
-    font-size: 17px;
-    line-height: 30px;
-  }
-  .divImg3 p {
-    min-width: 210.67px;
-    max-width: 310.67px;
-    font-size: 13px;
-    line-height: 20px;
-    text-align: left;
-  }
-  .divImg3 img {
-    width: 20%;
-  }
-
-  .e h1 {
-    margin-top: 5%;
-    margin-left: 1%;
-    text-align: center;
-  }
-  .e p {
-    text-align: center;
-    margin-left: 7%;
-    line-height: 20px;
-    width: 89%;
-  }
-  .rep {
-    background-image: url(./imgs/m.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 105%;
-    padding: 5% 5% 0% 5%;
-  }
-
-  .d {
-    display: flex;
-    justify-content: center;
-    margin: 3% 0% 0% 5%;
-    width: 60%;
-  }
-  .ddd {
-    padding: 5%;
-    border: 1px solid rgb(60, 171, 143);
-    border-radius: 20px;
-    background-color: rgba(60, 171, 144, 0.06);
-    overflow-x: scroll;
-  }
-  .rep div:nth-of-type(1) {
-    background-color: rgba(0, 0, 0, 0.57);
-    opacity: 0.8;
-    width: 90%;
-    height:340px;
-    padding: 10px 0px 10px 0px;
-    margin-top: 4%;
-    gap: 10px;
-    border-radius: 12px 12px 12px 12px;
-    backdrop-filter: blur(24px);
-  }
-  .rep div:nth-of-type(2) {
-    color: #fff;
-    z-index: 1;
-    opacity: 1;
-  }
-  .rep h1 {
-    color: #fff;
-    text-align: center;
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  .rep p {
-    color: #fff;
-    padding: 3% 5% 7% 10%;
-    text-align: center;
-    font-size: 15px;
-    line-height: 24px;
-    opacity: 1;
-    height: 200px
-  }
-  .div6 h1 {
-    text-align: center;
-    font-size: 32px;
-    margin-left: 20%;
-  }
-  .div5 p:nth-of-type(2) {
-    color: #3cab90;
-  }
-
-  .div6 {
-    margin-top: 10%;
-    width: 100%;
-    margin-left: -10%;
-  }
-
-  .div6 p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
-    margin-left: 15%;
-    color: #475467;
-  }
-  .div5 {
-    display: grid;
-    margin-left: 5%;
-    align-items: center;
-    justify-content: center;
-  }
-  .div5 div {
-    margin-bottom: 10%;
-    width: 75%;
-    margin-left: 20%;
-    box-shadow: 0px 0px 10px 0px #0000001a;
-    padding-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-  }
-  .div5 h2 {
-    margin-left: 5%;
-  }
-  .div5 p {
-    margin-left: 5%;
-    text-align: left;
-  }
-  .div4 {
-    background-image: url(./imgs/8116\ 1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    width: 105%;
-    align-items: left;
-    justify-content: flex-start;
-    margin-top: 10%;
-  }
-  .grebtn {
-    background-color: #3cab90;
-    color: #fff;
-    border: 1px solid #3cab90;
-    border-radius: 100px;
-    padding: 9px 19px;
-    font-size: 0.8rem;
-    margin-left: 10%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-  .yellowbtn {
-    background-color: #ffbb1c;
-    color: black;
-    border: 1px solid #ffbb1c;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 0.8rem;
-    margin-left: 1%;
-    margin-top: 2%;
-
-    cursor: pointer;
-  }
-  .btn3 {
-    background-color: #ffbb1c;
-    color: black;
-    border: 1px solid #ffbb1c;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 0.8rem;
-    margin-left: 0%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-  .div44 {
-    margin-left: 6%;
-    color: #fff;
-    margin-top: 5%;
-  }
-  .sec4h1 {
-    font-size: 1.5rem;
-  }
-  .pdiv4 {
-    width: 65%;
-    line-height: 24px;
-    font-size: 15px;
-  }
-  .pp {
-    margin-left: 15%;
-    width: 210px;
-    line-height: 20px;
-    text-align: left;
-    color: #475467;
-    font-size: 16px;
-  }
-  .imgg {
-    position: absolute;
-    margin-top: 160px;
-    margin-left: -270px;
-    height: 100px;
-  }
-
-  .imggs {
-    margin-left: -230px;
-    height: 240px;
-  }
-
-  .h11 {
-    margin-left: 15%;
-    font-size: 32px;
-    width: 250px;
-    font-weight: 600;
-    line-height: 50.83px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .div2 span {
-    color: #84bd3a;
-  }
-  .img33 {
-    position: relative;
-    margin-top: 520px;
-  }
-  .div2 {
-    font-size: 14px;
-    margin-left: 10%;
-    width: 200%;
-    margin-top: 270px;
-    text-align: left;
-    letter-spacing: 0.30000001192092896px;
-  }
-  .img2 {
-    background-image: url("./imgs/solar-panels-meadow\ 1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 15%;
-    width: 105%;
-  }
-  .img2 h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 13%;
-    text-align: left;
-    margin-left: 10%;
-    display: inline-block;
-  }
-  .img2 p {
-    font-size: 0.9rem;
-    font-weight: 300;
-    color: #fff;
-    display: inline-block;
-    text-align: left;
-    margin-left: 10%;
-  }
-  /* for nav */
-  .nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 0;
-    background-color: #0b9586;
-    color: #fff;
-    font-size: 1rem;
-    width: 105%;
-    height: 5vh;
-  }
-  .logo {
-    width: 40px;
-    height: 30px;
-    margin-bottom: -2%;
-    margin-right: -2%;
-    margin-left: 3%;
-  }
-  li {
-    list-style: none;
-    display: inline;
-    border-radius: 7%;
-    padding: 4px 4px;
-    font-size: 10px;
-  }
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  .ull {
-    margin-left: -10%;
-    margin-top: 4%;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  div ul {
-    display: inline;
-  }
-  .call {
-    margin-left: -1%;
-    display: inline-block;
-    text-align: right;
-    opacity: 0px;
-    align-content: right;
-  }
-  .call-number {
-    font-size: 10px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .call-us {
-    font-size: 10px;
-  }
-  .div7 {
-    display: block;
-    margin-top: 4%;
-    margin-left: 7%;
-    width: 170%;
-  }
-  .imgs4 {
-    display: grid;
-    grid-row: 2;
-    flex-direction: row;
-  }
-  .divImg4 {
-    padding: 4% 4% 0% 4%;
-    background-color: rgba(60, 171, 144, 0.05);
-    border: 1px solid #000;
-    border-radius: 10px;
-    margin-bottom: 8%;
-    height: 85%;
-    width: 40%;
-    border: 1px solid rgba(60, 171, 144, 1);
-  }
-  .divImg4 img {
-    width: 105%;
-  }
-  .divImg4 h2 {
-    font-size: 15px;
-    line-height: 30px;
-  }
-  .divImg4 p {
-    width: 210.67px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .en {
-    width: 15%;
-    display: inline;
-    margin-left: 4%;
-    font-size: 15px;
-    text-align: left;
-  }
-  .en p,
-  .en h1 {
-    margin-left: 5%;
-    width: 40%;
-  }
-}
-@media (max-width: 320px) {
+@media (max-width: 375px){
+  html, body {
+    overflow-x:hidden 
+  } 
   .d {
     display: flex;
     justify-content: center;
