@@ -1,25 +1,29 @@
 * {
   font-family: "Poppins", sans-serif;
-  scrollbar-width: none;
 }
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .ull li:hover {
   border-bottom: 3px solid #0000004d;
   background: #0000000f;
   font-weight: bold;
 }
-@media (min-width: 1025px) {
+@media (max-width: 1440px) and (min-width: 1025px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .ddd {
     display: flex;
   }
   .ulDiv ul {
+    display: flex;
     margin-left: -6%;
   }
-
   hr {
     border: 1px solid rgba(113, 119, 125, 1);
   }
@@ -29,30 +33,30 @@ body {
     color: beige;
     border-radius: 40px;
     border: 0px;
-    font-size: 16px;
+    font-size: 100%;
     padding: 0px 25px 0px 25px;
-    height: 11vh;
+    height: 51px;
     margin-top: 5%;
-    margin-left: -16%;
+    margin-left: -40px;
   }
 
   input {
     border: 1px solid rgba(179, 189, 199, 1);
     border-radius: 45px;
-    font-size: 15px;
+    font-size: 100%;
     margin-top: 5%;
+
     background-color: rgba(255, 255, 255, 0.09);
-    padding: 5% 15% 5% 9%;
+    padding: 5px 15px 5px 20px;
   }
 
   .div8 {
     display: block;
-    margin-top: 2%;
     margin-bottom: 5%;
+    margin-left: -15%;
   }
 
   .div8 label {
-    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.30000001192092896px;
@@ -88,8 +92,8 @@ body {
   }
 
   .ulDiv li {
-    font-size: 11px;
-    margin-left: -10%;
+    font-size: 120%;
+    margin-left: -6%;
   }
 
   ::placeholder {
@@ -101,13 +105,15 @@ body {
     padding: 2% 10%;
     background-color: rgba(40, 54, 70, 1);
     color: #fff;
-    width: Fixed (1, 440px) px;
-    height: Hug (412px) px;
+    width: 80%;
     padding: 80px 150px 80px 150px;
     gap: 44px;
     opacity: 0px;
   }
 
+  footer div:nth-child(1) {
+    margin-right: 10%;
+  }
   .divImg3 {
     padding: 4% 4% 0% 4%;
     margin-right: 14%;
@@ -214,7 +220,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 450px;
 
     padding: 5% 15% 0% 15%;
     margin: 5% 0 5% 0;
@@ -314,7 +320,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 75vh;
+    height: 440px;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
@@ -459,7 +465,7 @@ body {
     background-color: #0b9586;
     color: #fff;
     font-size: 1rem;
-    width: 100%;
+    width: 105%;
   }
 
   .logo {
@@ -584,12 +590,12 @@ body {
     margin-bottom: 8%;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
-  .img33 {
-    position: relative;
-    margin-top: 40%;
-    margin-left: 10%;
+@media (max-width: 1024px) and (min-width: 769px) {
+  html,
+  body {
+    overflow-x: hidden;
   }
+
   .div77 {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -713,7 +719,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 85vh;
+    height: 390px;
     padding: 5% 15% 0% 15%;
     margin: 5% 0 5% 0;
     width: 79%;
@@ -792,17 +798,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 400px;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
-    width: 110%;
+    width: 1025px;
   }
 
   .div44 {
     margin-left: 6%;
     color: #fff;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .div5 p:nth-of-type(2) {
@@ -854,27 +860,33 @@ body {
 
   .pp {
     margin-left: 15%;
-    width: 120%;
+    width: 620px;
     line-height: 24px;
     text-align: left;
     color: #475467;
     font-size: 16px;
   }
 
+  .img33 {
+    position: relative;
+    margin-top: 250px;
+    margin-left: -190px;
+  }
+
   .imgg {
     position: absolute;
-    height: 25vh;
-    margin-top: 90%;
-    margin-left: -30%;
+    height: 130px;
+    margin-top: 90px;
+    margin-left: -30px;
   }
 
   .imggs {
-    height: 70vh;
+    height: 290px;
   }
 
   .h11 {
     margin-left: 15%;
-    width: 150%;
+    width: 650px;
     font-size: 32px;
     font-weight: 600;
     line-height: 50.83px;
@@ -892,7 +904,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     margin-left: 15%;
-    width: 100%;
+    width: 325px;
   }
 
   .img2 {
@@ -932,7 +944,7 @@ body {
     background-color: #0b9586;
     color: #fff;
     font-size: 1rem;
-    width: 116%;
+    width: 100%;
   }
 
   .logo {
@@ -1036,6 +1048,7 @@ body {
   }
 
   .ulDiv ul {
+    display: flex;
     margin-left: -15%;
   }
   .ulDiv li {
@@ -1044,6 +1057,9 @@ body {
   hr {
     border: 1px solid rgba(113, 119, 125, 1);
   }
+  .div8 {
+    margin-left: -20%;
+  }
   .div8 button {
     background: rgba(255, 187, 28, 1);
     color: beige;
@@ -1051,7 +1067,7 @@ body {
     border: 0px;
     font-size: 14px;
     padding: 0px 25px 0px 25px;
-    height: 9vh;
+    height: 42px;
     margin-top: 5%;
     margin-left: -15%;
   }
@@ -1090,7 +1106,6 @@ body {
 
   .dd {
     display: flex;
-
     justify-content: space-between;
   }
 
@@ -1103,27 +1118,28 @@ body {
   }
 
   footer {
-    padding: 2% 10%;
+    justify-content: space-between;
+    padding: 2%;
     background-color: rgba(40, 54, 70, 1);
     color: #fff;
-    width: 89%;
+    width: 91%;
+    padding: 80px 50px 80px 50px;
+  }
+
+  footer div:nth-child(1) {
+    margin-right: 10%;
   }
 }
 @media (max-width: 768px) and (min-width: 426px) {
-  .img33 {
-    position: relative;
-    margin-top: 30%;
-    margin-left: 35%;
+  html,
+  body {
+    overflow-x: hidden;
   }
 
   .d {
     display: flex;
     justify-content: center;
     margin: 3% 20% 0% 20%;
-  }
-  footer img {
-    margin-top: 30%;
-    width: 110%;
   }
   .e h1 {
     margin-top: 5%;
@@ -1133,7 +1149,10 @@ body {
     text-align: center;
   }
   .ulDiv ul {
+    display: flex;
     width: 100%;
+    margin-left: -15%;
+    display: flex;
   }
   .ulDiv li {
     display: flex;
@@ -1142,28 +1161,29 @@ body {
   hr {
     border: 1px solid rgba(113, 119, 125, 1);
   }
+
   .div8 {
-    margin-top: 10%;
+    margin-left: -10%;
   }
   .div8 button {
     background: rgba(255, 187, 28, 1);
     color: beige;
     border-radius: 40px;
     border: 0px;
-    font-size: 14px;
-    padding: 0px 25px 0px 25px;
-    height: 6vh;
-    margin-top: 5%;
-    margin-left: -15%;
+    font-size: 13px;
+    padding: 1px 5px 1px 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: -50px;
   }
   input {
     border: 1px solid rgba(179, 189, 199, 1);
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5%;
     background-color: rgba(255, 255, 255, 0.09);
     padding: 0% 0% 0% 5%;
-    margin-left: 20%;
+    margin-left: -10%;
   }
   .div8 label {
     font-size: 13px;
@@ -1173,16 +1193,21 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-left: 20%;
+    margin-left: -10%;
   }
   .dd li,
   .dd span,
   .dd p {
     color: rgba(146, 152, 159, 1);
-    font-size: 10px;
+    font-size: 6px;
+  }
+  .dd ul {
+    margin-top: -0.5%;
+    word-spacing: normal;
   }
   .dd {
     display: flex;
+    margin-left: -10%;
 
     justify-content: space-between;
   }
@@ -1192,18 +1217,32 @@ body {
   ::placeholder {
     color: rgba(146, 152, 159, 1);
   }
+  footer img {
+    margin-top: 5%;
+    width: 110px;
+    height: 50px;
+  }
+
   footer {
-    padding: 2% 10%;
+    justify-content: space-between;
+    padding: 5%;
     background-color: rgba(40, 54, 70, 1);
     color: #fff;
-    width: 150%;
+    width: 90%;
+    height: 100%;
+    gap: 4px;
+    opacity: 0px;
   }
+  footer div:nth-child(1) {
+    width: 75%;
+  }
+
   .div77 {
     margin-top: 4%;
     margin-bottom: 10%;
     display: flex;
     width: 100%;
-    margin-left: 30%;
+    margin-left: 5%;
     margin-right: -5%;
   }
   .woc {
@@ -1252,13 +1291,7 @@ body {
   .div7 {
     display: flex;
   }
-  .ddd {
-    display: flex;
-    margin-left: 35%;
 
-    margin-top: 3%;
-    width: 200%;
-  }
   .divImg3 {
     padding: 2%;
     margin-bottom: 2%;
@@ -1286,12 +1319,11 @@ body {
 
   .e h1 {
     margin-top: 5%;
-    margin-left: 60%;
+
     text-align: center;
   }
   .e p {
     text-align: center;
-    margin-left: 33%;
     width: 100%;
   }
   .rep {
@@ -1299,17 +1331,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
-
+    height: 400px;
     padding: 5% 15% 0% 15%;
     margin: 5% 0 5% 0;
   }
+
   .rep div:nth-of-type(1) {
     background-color: rgba(0, 0, 0, 0.57);
     opacity: 0.8;
     width: 100%;
-    height: 50vh;
-    padding: 44px 0px 44px 0px;
+    height: 75%;
+    padding: 2% 0% 2% 0%;
     margin-top: 4%;
     gap: 32px;
     border-radius: 12px 12px 12px 12px;
@@ -1325,15 +1357,15 @@ body {
     color: #fff;
     text-align: center;
     opacity: 1;
-    font-size: 35px;
+    font-size: 25px;
   }
   .rep p {
     color: #fff;
-    padding: 3% 5% 7% 10%;
+    padding: 3% 5% 0% 10%;
     text-align: center;
     width: 75%;
-    height: 150px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 14px;
     opacity: 1;
   }
   .div6 h1 {
@@ -1381,7 +1413,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
+    height: 400px;
     width: 100%;
     align-items: left;
     justify-content: flex-start;
@@ -1430,29 +1462,36 @@ body {
     line-height: 24px;
     font-size: 20px;
   }
+  .imgg {
+    position: absolute;
+    margin-top: 430px;
+    margin-left: -270px;
+    height: 100px;
+  }
+
+  .imggs {
+    margin-top: 250px;
+    margin-left: -230px;
+    height: 300px;
+  }
+  .img33 {
+    position: relative;
+    margin-top: 200px;
+    margin-right: 60px;
+  }
+
   .pp {
-    margin-left: 15%;
-    width: 100%;
+    margin-left: 50px;
+    width: 90%;
     line-height: 24px;
     text-align: left;
     color: #475467;
     font-size: 16px;
   }
 
-  .imgg {
-    position: absolute;
-    margin-top: 100%;
-    margin-left: -165%;
-    height: 15%;
-  }
-  .imggs {
-    margin-top: 110%;
-    height: 45vh;
-    margin-left: -150%;
-  }
   .h11 {
-    margin-left: 15%;
-    width: 390px;
+    margin-left: 50px;
+    width: 90%;
     font-size: 32px;
     font-weight: 600;
     line-height: 50.83px;
@@ -1466,10 +1505,9 @@ body {
   }
   .div2 {
     font-weight: bold;
-    margin-top: 105%;
+    margin-top: 450px;
     font-size: 15px;
-    margin-left: 15%;
-    width: 100%;
+    margin-left: 45px;
     text-align: left;
   }
   .img2 {
@@ -1510,11 +1548,12 @@ body {
     font-size: 1rem;
     width: 100%;
   }
+
   .logo {
     width: 50px;
     height: 44px;
     opacity: 0px;
-    margin-bottom: -16px;
+    margin-bottom: -14px;
     margin-left: 3%;
     margin-right: -8%;
   }
@@ -1530,7 +1569,7 @@ body {
     color: #fff;
   }
   .ull {
-    margin: 0 10px;
+    margin: 0 5px;
     display: inline;
     justify-content: center;
     align-items: center;
@@ -1540,31 +1579,28 @@ body {
     display: inline;
   }
   .call {
+    margin-left: -3%;
     display: inline-block;
     text-align: right;
     opacity: 0px;
-    width: 216px;
-    opacity: 1;
-    margin-left: -20%;
     align-content: right;
-    margin-bottom: 10px;
   }
   .call-number {
-    width: 116px;
-    height: 28px;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     text-align: left;
   }
+  .call-us {
+    font-size: 10px;
+  }
   .div7 {
     display: block;
-    margin-left: 3%;
   }
   .imgs4 {
     display: grid;
     grid-row: 2;
     flex-direction: row;
-    margin-left: 40%;
+    margin-left: 10%;
   }
   .divImg4 {
     margin-left: 23%;
@@ -1599,25 +1635,42 @@ body {
     font-size: 15px;
     text-align: left;
   }
+  .d {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0% 0% 5%;
+    width: 90%;
+  }
 
   .en p,
   .en h1 {
     margin-left: 10%;
   }
+  .ddd {
+    display: flex;
+    margin-right: -0%;
+    margin-top: 3%;
+    padding: 2%;
+    border: 1px solid rgb(60, 171, 143);
+    border-radius: 20px;
+    background-color: rgba(60, 171, 144, 0.06);
+    overflow-x: scroll;
+  }
 }
 @media (max-width: 425px) and (min-width: 376px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .d {
     display: flex;
     justify-content: center;
     margin: 3% 20% 0% 20%;
   }
-  footer img {
-    margin-top: 30%;
-    width: 110%;
-  }
+
   .e h1 {
     margin-top: 5%;
-    margin-left: -10%;
+    margin-left: -50%;
     text-align: left;
   }
   .e p {
@@ -1625,6 +1678,7 @@ body {
   }
   .ulDiv ul {
     width: 130%;
+    display: flex;
   }
   .ulDiv li {
     display: flex;
@@ -1634,7 +1688,7 @@ body {
     border: 1px solid rgba(113, 119, 125, 1);
   }
   .div8 {
-    margin-top: 10%;
+    margin-left: -10%;
   }
   .div8 button {
     background: rgba(255, 187, 28, 1);
@@ -1642,19 +1696,19 @@ body {
     border-radius: 40px;
     border: 0px;
     font-size: 13px;
-    padding: 0px 10px 0px 10px;
-    height: 6vh;
-    margin-top: 5%;
-    margin-left: -25%;
+    padding: 1px 5px 1px 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: -50px;
   }
   input {
     border: 1px solid rgba(179, 189, 199, 1);
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5%;
     background-color: rgba(255, 255, 255, 0.09);
     padding: 0% 0% 0% 5%;
-    margin-left: 10%;
+    margin-left: -10%;
   }
   .div8 label {
     font-size: 13px;
@@ -1664,7 +1718,7 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-left: 15%;
+    margin-left: -10%;
   }
   .dd li,
   .dd span,
@@ -1685,12 +1739,7 @@ body {
     width: 60%;
     font-size: 12px;
   }
-  footer {
-    padding: 2% 10%;
-    background-color: rgba(40, 54, 70, 1);
-    color: #fff;
-    width: auto;
-  }
+
   .div77 {
     margin-top: 4%;
     margin-bottom: 10%;
@@ -1752,6 +1801,11 @@ body {
     display: flex;
     margin-right: -50%;
     margin-top: 3%;
+    padding: 2%;
+    border: 1px solid rgb(60, 171, 143);
+    border-radius: 20px;
+    background-color: rgba(60, 171, 144, 0.06);
+    overflow-x: scroll;
   }
   .divImg3 {
     padding: 2%;
@@ -1778,6 +1832,25 @@ body {
     width: 20%;
   }
 
+  footer img {
+    margin-top: 5%;
+    width: 110px;
+    height: 50px;
+  }
+
+  footer {
+    justify-content: space-between;
+    padding: 5%;
+    background-color: rgba(40, 54, 70, 1);
+    color: #fff;
+    width: 90%;
+    height: 100%;
+    gap: 4px;
+    opacity: 0px;
+  }
+  footer div:nth-child(1) {
+    width: 75%;
+  }
   .e h1 {
     margin-top: 5%;
     margin-left: 1%;
@@ -1794,9 +1867,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
-    width: 100%;
-    padding: 5% 0% 5% 6%;
+    height: 370px;
+    width: 405px;
+    padding: 5%;
+    margin: 5% 0 5% 0;
     margin-bottom: 10%;
   }
 
@@ -1806,22 +1880,14 @@ body {
     margin: 3% 0% 0% 5%;
     width: 57%;
   }
-  .ddd {
-    padding: 2%;
-    border: 1px solid rgb(60, 171, 143);
-    border-radius: 20px;
-    background-color: rgba(60, 171, 144, 0.06);
 
-    overflow-x: scroll;
-  }
   .rep div:nth-of-type(1) {
     background-color: rgba(0, 0, 0, 0.57);
     opacity: 0.8;
-    width: 90%;
-    height: 50vh;
-    padding: 10px 0px 10px 0px;
-    margin-top: 4%;
-    gap: 10px;
+    width: 356px;
+    height: 300px;
+    padding: 10px 5px 20px 5px;
+    gap: 5px;
     border-radius: 12px 12px 12px 12px;
     backdrop-filter: blur(24px);
   }
@@ -1897,8 +1963,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
-    width: 100%;
+    height: 260px;
+    width: 105%;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
@@ -1944,6 +2010,7 @@ body {
   }
   .sec4h1 {
     font-size: 1.5rem;
+    width: 300px;
   }
   .pdiv4 {
     width: 65%;
@@ -1952,29 +2019,35 @@ body {
   }
   .pp {
     margin-left: 15%;
-    width: 200%;
+    width: 300px;
     line-height: 20px;
     text-align: left;
     color: #475467;
     font-size: 16px;
-    margin-top: 20%;
+    margin-top: 20px;
   }
   .imgg {
     position: absolute;
-    margin-top: 100%;
-    margin-left: -55%;
-    height: 20%;
+    margin-top: 430px;
+    margin-left: -270px;
+    height: 100px;
   }
 
   .imggs {
-    margin-left: -30%;
-    height: 40vh;
+    margin-top: 250px;
+    margin-left: -230px;
+    height: 300px;
   }
-
+  .img33 {
+    position: relative;
+    margin-top: 520px;
+    margin-top: 215px;
+    margin-bottom: 10px;
+  }
   .h11 {
     margin-left: 15%;
     font-size: 32px;
-    width: 210%;
+    width: 330px;
     font-weight: 600;
     line-height: 50.83px;
     letter-spacing: -0.02em;
@@ -1985,17 +2058,13 @@ body {
   .div2 span {
     color: #84bd3a;
   }
-  .img33 {
-    position: relative;
-    margin-top: 120%;
-    margin-bottom: 10%;
-  }
+
   .div2 {
     font-weight: bold;
     font-size: 15px;
     margin-left: 15%;
     width: 230%;
-    margin-top: 240%;
+    margin-top: 400px;
     text-align: left;
     letter-spacing: 0.30000001192092896px;
   }
@@ -2130,16 +2199,17 @@ body {
     width: 40%;
   }
 }
-@media (max-width: 375px) and (min-width: 321px) {
+@media (max-width: 375px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .d {
     display: flex;
     justify-content: center;
     margin: 3% 20% 0% 20%;
   }
-  footer img {
-    margin-top: 30%;
-    width: 110%;
-  }
+
   .e h1 {
     margin-top: 5%;
     margin-left: -10%;
@@ -2149,7 +2219,8 @@ body {
     text-align: center;
   }
   .ulDiv ul {
-    width: 130%;
+    width: 150%;
+    display: flex;
   }
   .ulDiv li {
     display: flex;
@@ -2159,7 +2230,7 @@ body {
     border: 1px solid rgba(113, 119, 125, 1);
   }
   .div8 {
-    margin-top: 10%;
+    margin-left: -20%;
   }
   .div8 button {
     background: rgba(255, 187, 28, 1);
@@ -2167,543 +2238,18 @@ body {
     border-radius: 40px;
     border: 0px;
     font-size: 13px;
-    padding: 0px 10px 0px 10px;
-    height: 6vh;
-    margin-top: 5%;
-    margin-left: -25%;
-  }
-  input {
-    border: 1px solid rgba(179, 189, 199, 1);
-    border-radius: 25px;
-    font-size: 14px;
-    margin-top: 5%;
-    background-color: rgba(255, 255, 255, 0.09);
-    padding: 0% 0% 0% 5%;
-    margin-left: 10%;
-  }
-  .div8 label {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.30000001192092896px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-left: 15%;
-  }
-  .dd li,
-  .dd span,
-  .dd p {
-    color: rgba(146, 152, 159, 1);
-    font-size: 10px;
-  }
-  .dd {
-    display: flex;
-
-    justify-content: space-between;
-  }
-  .div8 div {
-    display: flex;
-  }
-  ::placeholder {
-    color: rgba(146, 152, 159, 1);
-    width: 60%;
-    font-size: 12px;
-  }
-  footer {
-    padding: 2% 10%;
-    background-color: rgba(40, 54, 70, 1);
-    color: #fff;
-    width: auto;
-  }
-  .div77 {
-    margin-top: 4%;
-    margin-bottom: 10%;
-    width: 88%;
-    margin-left: 8%;
-  }
-  .woc {
-    border: 1px solid #00000000;
-    border-radius: 20px;
-    background-color: rgba(60, 171, 144, 0.06);
-    margin-left: 3%;
-    margin-right: 10%;
-    padding: 4%;
-  }
-
-  h5 {
-    margin-top: -3%;
-  }
-  .wocc img {
-    margin-right: 5%;
-  }
-  .wocc div:nth-of-type(2) {
-    margin-left: 35%;
-    width: 60%;
-    margin-top: 5%;
-    margin-bottom: 8%;
-  }
-  .feedback {
-    margin-left: 5%;
-    margin-top: 6%;
-    margin-right: 4%;
-    display: flex;
-    margin-bottom: 5%;
-  }
-  .feedback p {
-    width: 150%;
-    height: Hug (216px) px;
-    gap: 52px;
-    font-size: 15px;
-  }
-  .man {
-    margin-left: 9%;
-  }
-  .man h5 {
-    font-weight: 800;
-    display: block;
-    margin-left: 25%;
-    margin-top: -25%;
-    color: #000000;
-  }
-  .man p {
-    margin-top: -5%;
-    margin-left: 25%;
-  }
-  .div7 {
-    display: flex;
-  }
-  .ddd {
-    display: flex;
-    margin-right: -50%;
-    margin-top: 3%;
-  }
-  .divImg3 {
-    padding: 2%;
-    margin: 3% 5% 3% 3%;
-
-    background-color: rgba(60, 171, 144, 0.05);
-    border: 1px solid #000;
-    border-radius: 10px;
-    max-height: 418px;
-    border: 1px solid rgba(60, 171, 144, 1);
-  }
-  .divImg3 h2 {
-    font-size: 17px;
-    line-height: 30px;
-  }
-  .divImg3 p {
-    min-width: 210.67px;
-    max-width: 310.67px;
-    font-size: 13px;
-    line-height: 20px;
-    text-align: left;
-  }
-  .divImg3 img {
-    width: 20%;
-  }
-
-  .e h1 {
-    margin-top: 5%;
-    margin-left: 1%;
-    text-align: center;
-  }
-  .e p {
-    text-align: center;
-    margin-left: 7%;
-    line-height: 20px;
-    width: 89%;
-  }
-  .rep {
-    background-image: url(./imgs/m.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    width: 100%;
-    padding: 5% 5% 0% 5%;
-  }
-
-  .d {
-    display: flex;
-    justify-content: center;
-    margin: 3% 0% 0% 5%;
-    width: 60%;
-  }
-  .ddd {
-    padding: 5%;
-    border: 1px solid rgb(60, 171, 143);
-    border-radius: 20px;
-    background-color: rgba(60, 171, 144, 0.06);
-
-    overflow-x: scroll;
-  }
-  .rep div:nth-of-type(1) {
-    background-color: rgba(0, 0, 0, 0.57);
-    opacity: 0.8;
-    width: 90%;
-    height: 60vh;
-    padding: 5px 0px 5px 0px;
-    margin-top: 4%;
-    gap: 10px;
-    border-radius: 12px 12px 12px 12px;
-    backdrop-filter: blur(24px);
-  }
-  .rep div:nth-of-type(2) {
-    color: #fff;
-    z-index: 1;
-    opacity: 1;
-  }
-  .rep h1 {
-    color: #fff;
-    text-align: center;
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  .rep p {
-    color: #fff;
-    padding: 3% 5% 7% 10%;
-    text-align: center;
-    font-size: 15px;
-    line-height: 24px;
-    opacity: 1;
-  }
-  .div6 h1 {
-    text-align: center;
-    font-size: 32px;
-    margin-left: 20%;
-  }
-  .div5 p:nth-of-type(2) {
-    color: #3cab90;
-  }
-
-  .div6 {
-    margin-top: 10%;
-    width: 100%;
-    margin-left: -10%;
-  }
-
-  .div6 p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
-    margin-left: 15%;
-    color: #475467;
-  }
-  .div5 {
-    display: grid;
-    margin-left: 5%;
-    align-items: center;
-    justify-content: center;
-  }
-  .div5 div {
-    margin-bottom: 10%;
-    width: 75%;
-    margin-left: 20%;
-    box-shadow: 0px 0px 10px 0px #0000001a;
-    padding-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-  }
-  .div5 h2 {
-    margin-left: 5%;
-  }
-  .div5 p {
-    margin-left: 5%;
-    text-align: left;
-  }
-  .div4 {
-    background-image: url(./imgs/8116\ 1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh;
-    width: 100%;
-    align-items: left;
-    justify-content: flex-start;
-    margin-top: 10%;
-  }
-  .grebtn {
-    background-color: #3cab90;
-    color: #fff;
-    border: 1px solid #3cab90;
-    border-radius: 100px;
-    padding: 9px 19px;
-    font-size: 0.8rem;
-    margin-left: 10%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-  .yellowbtn {
-    background-color: #ffbb1c;
-    color: black;
-    border: 1px solid #ffbb1c;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 0.8rem;
-    margin-left: 1%;
-    margin-top: 2%;
-
-    cursor: pointer;
-  }
-  .btn3 {
-    background-color: #ffbb1c;
-    color: black;
-    border: 1px solid #ffbb1c;
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 0.8rem;
-    margin-left: 0%;
-    margin-top: 2%;
-    cursor: pointer;
-  }
-  .div44 {
-    margin-left: 6%;
-    color: #fff;
-    margin-top: 5%;
-  }
-  .sec4h1 {
-    font-size: 1.5rem;
-  }
-  .pdiv4 {
-    width: 65%;
-    line-height: 24px;
-    font-size: 15px;
-  }
-  .pp {
-    margin-left: 15%;
-    width: 210%;
-    line-height: 20px;
-    text-align: left;
-    color: #475467;
-    font-size: 16px;
-    margin-bottom: 15%;
-  }
-  .imgg {
-    position: absolute;
-    margin-top: 100%;
-    margin-left: -55%;
-    height: 20%;
-  }
-
-  .imggs {
-    margin-left: -30%;
-    height: 40vh;
-  }
-
-  .h11 {
-    margin-left: 15%;
-    font-size: 32px;
-    width: 230%;
-    font-weight: 600;
-    line-height: 50.83px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .div2 span {
-    color: #84bd3a;
-  }
-  .img33 {
-    position: relative;
-    margin-top: 130%;
-  }
-  .div2 {
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 15%;
-    width: 230%;
-    margin-top: 260%;
-    text-align: left;
-    letter-spacing: 0.30000001192092896px;
-  }
-  .img2 {
-    background-image: url("./imgs/solar-panels-meadow\ 1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 5%;
-    width: 100%;
-  }
-  .img2 h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 13%;
-    text-align: left;
-    margin-left: 10%;
-    display: inline-block;
-  }
-  .img2 p {
-    font-size: 0.9rem;
-    font-weight: 300;
-    color: #fff;
-    display: inline-block;
-    text-align: left;
-    margin-left: 10%;
-  }
-  /* for nav */
-  .nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 0;
-    background-color: #0b9586;
-    color: #fff;
-    font-size: 1rem;
-    width: 100%;
-    height: 5vh;
-  }
-  .logo {
-    width: 40px;
+    padding: 1px 5px 1px 5px;
     height: 30px;
-    margin-bottom: -2%;
-    margin-right: -2%;
-    margin-left: 3%;
-  }
-  li {
-    list-style: none;
-    display: inline;
-    border-radius: 7%;
-    padding: 4px 4px;
-    font-size: 10px;
-  }
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  .ull {
-    margin-left: -10%;
-    margin-top: 4%;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  div ul {
-    display: inline;
-  }
-  .call {
-    margin-left: -1%;
-    display: inline-block;
-    text-align: right;
-    opacity: 0px;
-    align-content: right;
-  }
-  .call-number {
-    font-size: 10px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .call-us {
-    font-size: 10px;
-  }
-  .div7 {
-    display: block;
-    margin-top: 4%;
-    margin-left: 5%;
-    width: 160%;
-  }
-  .imgs4 {
-    display: grid;
-    grid-row: 2;
-    flex-direction: row;
-    margin-left: 5%;
-  }
-  .divImg4 {
-    padding: 4% 4% 0% 4%;
-    background-color: rgba(60, 171, 144, 0.05);
-    border: 1px solid #000;
-    border-radius: 10px;
-    margin-bottom: 8%;
-    height: 85%;
-    width: 40%;
-    border: 1px solid rgba(60, 171, 144, 1);
-  }
-  .divImg4 img {
-    width: 100%;
-  }
-  .divImg4 h2 {
-    font-size: 15px;
-    line-height: 30px;
-  }
-  .divImg4 p {
-    width: 210.67px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .en {
-    width: 15%;
-    display: inline;
-    margin-left: 4%;
-    font-size: 15px;
-    text-align: left;
-  }
-  .en p,
-  .en h1 {
-    margin-left: 5%;
-    width: 40%;
-  }
-}
-@media (max-width: 320px) {
-  .d {
-    display: flex;
-    justify-content: center;
-    margin: 3% 20% 0% 20%;
-  }
-  footer img {
-    margin-top: 30%;
-    width: 110%;
-  }
-  .e h1 {
-    margin-top: 5%;
-    margin-left: -10%;
-    text-align: left;
-  }
-  .e p {
-    text-align: center;
-  }
-  .ulDiv ul {
-    width: 130%;
-  }
-  .ulDiv li {
-    display: flex;
-    font-size: 10px;
-  }
-  hr {
-    border: 1px solid rgba(113, 119, 125, 1);
-  }
-  .div8 {
-    margin-top: 10%;
-  }
-  .div8 button {
-    background: rgba(255, 187, 28, 1);
-    color: beige;
-    border-radius: 40px;
-    border: 0px;
-    font-size: 13px;
-    padding: 0px 10px 0px 10px;
-    height: 6vh;
-    margin-top: 5%;
-    margin-left: -25%;
+    margin-top: 10px;
+    margin-left: -50px;
   }
   input {
     border: 1px solid rgba(179, 189, 199, 1);
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5%;
     background-color: rgba(255, 255, 255, 0.09);
-    padding: 0% 0% 0% 5%;
-    margin-left: 10%;
+    margin-left: -10%;
   }
   .div8 label {
     font-size: 13px;
@@ -2713,17 +2259,16 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-left: 15%;
+    margin-left: -10%;
   }
   .dd li,
   .dd span,
   .dd p {
     color: rgba(146, 152, 159, 1);
-    font-size: 10px;
+    font-size: 9px;
   }
   .dd {
     display: flex;
-
     justify-content: space-between;
   }
   .div8 div {
@@ -2734,12 +2279,7 @@ body {
     width: 60%;
     font-size: 12px;
   }
-  footer {
-    padding: 2% 10%;
-    background-color: rgba(40, 54, 70, 1);
-    color: #fff;
-    width: auto;
-  }
+
   .div77 {
     margin-top: 4%;
     margin-bottom: 10%;
@@ -2797,11 +2337,7 @@ body {
   .div7 {
     display: flex;
   }
-  .ddd {
-    display: flex;
-    margin-right: -50%;
-    margin-top: 3%;
-  }
+
   .divImg3 {
     padding: 2%;
     margin: 3% 5% 3% 3%;
@@ -2843,8 +2379,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
-    width: auto;
+    height: 400px;
+    width: 105%;
     padding: 5% 5% 0% 5%;
   }
 
@@ -2859,14 +2395,16 @@ body {
     border: 1px solid rgb(60, 171, 143);
     border-radius: 20px;
     background-color: rgba(60, 171, 144, 0.06);
-
     overflow-x: scroll;
+    display: flex;
+    margin-right: -50%;
+    margin-top: 3%;
   }
   .rep div:nth-of-type(1) {
     background-color: rgba(0, 0, 0, 0.57);
     opacity: 0.8;
     width: 90%;
-    height: 55vh;
+    height: 340px;
     padding: 10px 0px 10px 0px;
     margin-top: 4%;
     gap: 10px;
@@ -2892,6 +2430,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     opacity: 1;
+    height: 200px;
   }
   .div6 h1 {
     text-align: center;
@@ -2945,11 +2484,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
-    width: 100%;
+    height: 300px;
+    width: 375px;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
+  }
+  .sec4h1 {
+    width: 240px;
   }
   .grebtn {
     background-color: #3cab90;
@@ -2971,7 +2513,6 @@ body {
     font-size: 0.8rem;
     margin-left: 1%;
     margin-top: 2%;
-
     cursor: pointer;
   }
   .btn3 {
@@ -3000,7 +2541,7 @@ body {
   }
   .pp {
     margin-left: 15%;
-    width: 150%;
+    width: 210px;
     line-height: 20px;
     text-align: left;
     color: #475467;
@@ -3008,20 +2549,20 @@ body {
   }
   .imgg {
     position: absolute;
-    margin-top: 100%;
-    margin-left: -55%;
-    height: 20%;
+    margin-top: 160px;
+    margin-left: -270px;
+    height: 100px;
   }
 
   .imggs {
-    margin-left: -45%;
-    height: 40vh;
+    margin-left: -230px;
+    height: 240px;
   }
 
   .h11 {
     margin-left: 15%;
     font-size: 32px;
-    width: 150%;
+    width: 250px;
     font-weight: 600;
     line-height: 50.83px;
     letter-spacing: -0.02em;
@@ -3034,14 +2575,13 @@ body {
   }
   .img33 {
     position: relative;
-    margin-top: 160%;
+    margin-top: 520px;
   }
   .div2 {
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 15%;
+    font-size: 14px;
+    margin-left: 10%;
     width: 200%;
-    margin-top: 250%;
+    margin-top: 270px;
     text-align: left;
     letter-spacing: 0.30000001192092896px;
   }
@@ -3051,7 +2591,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 15%;
-    width: 100%;
+    width: 105%;
   }
   .img2 h1 {
     font-size: 1.5rem;
@@ -3079,7 +2619,7 @@ body {
     background-color: #0b9586;
     color: #fff;
     font-size: 1rem;
-    width: 100%;
+    width: 105%;
     height: 5vh;
   }
   .logo {
@@ -3129,7 +2669,7 @@ body {
   .div7 {
     display: block;
     margin-top: 4%;
-    margin-left: 3%;
+    margin-left: 7%;
     width: 170%;
   }
   .imgs4 {
@@ -3148,7 +2688,7 @@ body {
     border: 1px solid rgba(60, 171, 144, 1);
   }
   .divImg4 img {
-    width: 100%;
+    width: 105%;
   }
   .divImg4 h2 {
     font-size: 15px;
@@ -3174,5 +2714,23 @@ body {
   .en h1 {
     margin-left: 5%;
     width: 40%;
+  }
+  footer img {
+    margin-top: 5%;
+    width: 90px;
+    height: 40px;
+  }
+  footer {
+    justify-content: space-between;
+    padding: 5%;
+    background-color: rgba(40, 54, 70, 1);
+    color: #fff;
+    width: 90%;
+    height: 100%;
+    gap: 4px;
+    opacity: 0px;
+  }
+  footer div:nth-child(1) {
+    width: 75%;
   }
 }
