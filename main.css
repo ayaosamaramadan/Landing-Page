@@ -12,7 +12,7 @@ body {
   background: #0000000f;
   font-weight: bold;
 }
-@media (min-width: 1025px) {
+@media (max-width:1440px) and (min-width: 1025px) {
   html, body {
     overflow-x:hidden 
   }
@@ -22,7 +22,6 @@ body {
   .ulDiv ul {
     margin-left: -6%;
   }
-
   hr {
     border: 1px solid rgba(113, 119, 125, 1);
   }
@@ -32,30 +31,31 @@ body {
     color: beige;
     border-radius: 40px;
     border: 0px;
-    font-size: 16px;
+    font-size: 100%;
     padding: 0px 25px 0px 25px;
-    height: 11vh;
+    height: 51px;
     margin-top: 5%;
-    margin-left: -16%;
+    margin-left: -40px;
   }
 
   input {
     border: 1px solid rgba(179, 189, 199, 1);
     border-radius: 45px;
-    font-size: 15px;
+    font-size: 100%;
     margin-top: 5%;
+  
     background-color: rgba(255, 255, 255, 0.09);
-    padding: 5% 15% 5% 9%;
+    padding: 5px 15px 5px 20px;
   }
 
   .div8 {
     display: block;
-    margin-top: 2%;
     margin-bottom: 5%;
+
   }
 
   .div8 label {
-    font-size: 16px;
+    
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.30000001192092896px;
@@ -91,8 +91,8 @@ body {
   }
 
   .ulDiv li {
-    font-size: 11px;
-    margin-left: -10%;
+    font-size: 120%;
+    margin-left: -6%;
   }
 
   ::placeholder {
@@ -104,8 +104,7 @@ body {
     padding: 2% 10%;
     background-color: rgba(40, 54, 70, 1);
     color: #fff;
-    width: Fixed (1, 440px) px;
-    height: Hug (412px) px;
+    width: 1150px;
     padding: 80px 150px 80px 150px;
     gap: 44px;
     opacity: 0px;
@@ -587,15 +586,11 @@ body {
     margin-bottom: 8%;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
   html, body {
     overflow-x:hidden 
   } 
-  .img33 {
-    position: relative;
-    margin-top: 40%;
-    margin-left: 10%;
-  }
+
   .div77 {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -802,13 +797,13 @@ body {
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
-    width: 110%;
+    width: 1025px;
   }
 
   .div44 {
     margin-left: 6%;
     color: #fff;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .div5 p:nth-of-type(2) {
@@ -860,27 +855,34 @@ body {
 
   .pp {
     margin-left: 15%;
-    width: 120%;
+    width: 620px;
     line-height: 24px;
     text-align: left;
     color: #475467;
     font-size: 16px;
   }
 
+  .img33 {
+    position: relative;
+    margin-top: 250px;  
+    margin-left: -190px;
+  }
+
   .imgg {
     position: absolute;
-    height: 25vh;
-    margin-top: 90%;
-    margin-left: -30%;
+    height: 130px;
+    margin-top: 90px;
+    margin-left: -30px;
   }
 
   .imggs {
-    height: 70vh;
+    height: 290px;
+    
   }
 
   .h11 {
     margin-left: 15%;
-    width: 150%;
+    width: 650px;
     font-size: 32px;
     font-weight: 600;
     line-height: 50.83px;
@@ -898,7 +900,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     margin-left: 15%;
-    width: 100%;
+    width: 325px;
   }
 
   .img2 {
@@ -938,7 +940,7 @@ body {
     background-color: #0b9586;
     color: #fff;
     font-size: 1rem;
-    width: 116%;
+    width: 100%;
   }
 
   .logo {
@@ -1112,7 +1114,7 @@ body {
     padding: 2% 10%;
     background-color: rgba(40, 54, 70, 1);
     color: #fff;
-    width: 89%;
+  
   }
 }
 @media (max-width: 768px) and (min-width: 426px) {
@@ -1806,9 +1808,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 70vh;
-    width: 100%;
-    padding: 5% 0% 5% 6%;
+    height: 370px;
+    width: 405px;
+    padding: 5%;
+    margin: 5% 0 5% 0;
     margin-bottom: 10%;
   }
 
@@ -1829,11 +1832,10 @@ body {
   .rep div:nth-of-type(1) {
     background-color: rgba(0, 0, 0, 0.57);
     opacity: 0.8;
-    width: 90%;
-    height: 50vh;
-    padding: 10px 0px 10px 0px;
-    margin-top: 4%;
-    gap: 10px;
+    width: 356px;
+    height: 300px;
+    padding: 10px 5px 20px 5px;
+    gap: 5px;
     border-radius: 12px 12px 12px 12px;
     backdrop-filter: blur(24px);
   }
@@ -1909,7 +1911,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
+    height: 260px;
     width: 105%;
     align-items: left;
     justify-content: flex-start;
@@ -1956,6 +1958,7 @@ body {
   }
   .sec4h1 {
     font-size: 1.5rem;
+    width: 300px;
   }
   .pdiv4 {
     width: 65%;
@@ -2439,10 +2442,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
-    width: 105%;
+    width: 375px;
     align-items: left;
     justify-content: flex-start;
     margin-top: 10%;
+  }
+  .sec4h1 {
+    width: 240px;
   }
   .grebtn {
     background-color: #3cab90;
